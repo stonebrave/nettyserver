@@ -1,9 +1,0 @@
-package lqy7_protobuf_140;
-option java_package = "lqy7_protobuf_140";
-option java_outer_classname = "SubscribeRespProto";
-
-message SubscribeResp{
-  required int32 subReqID = 1;
-  required int32 respCode = 2;
-  required string desc = 3;
-}
